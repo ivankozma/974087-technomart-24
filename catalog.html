@@ -2,19 +2,22 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
+    <title>HTML Academy: Техномарт.Каталог товаров</title>
   </head>
   <body>
     <header class="main-header">
+        <div class="wrapper">
       <ul class="main-panel">
          <li><a class="main-header-logo">
           <img src="img/index-logo.svg" width="368" height="153" alt="Логотип Интернет-магазина Техномаркет"></a></li>
           <li class="main-search">
             <!-- Здесь будет форма Поиск --></li>
           <li class="main-markers"> Закладки </li>
-          <li class="main-basket"> Корзина </li>
+          <li class="main-basket-red"> Корзина </li>
           <li class="main-order"> <a class="button" href="order.html">Оформить заказ</a> </li>
       </ul>
+      </div>
+      <div class="wrapper">
       <ul class="main-info">
         <li class="main-description">
           <p>
@@ -25,7 +28,7 @@
         </li>
         <li class="contacts">
           <p class="phone">
-            +7(812)555-05-55
+              <a href="tel:+7(812)555-05-55">+7(812)555-05-55</a>
           </p>
           <p class="adress">
            г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8
@@ -38,6 +41,8 @@
           <li class="private-office"><a href="privateoffice.html"> Личный кабинет</a> </li>
         <!-- Неуверен в этом блоке. Может есть смысл из списка убрать и в section запулить? -->  
        </ul>
+      </div>
+      <div>
        <nav class="main-navigation">
         <ul class="site-navigation">
           <li><a href="index.html">Главная</a></li>
@@ -49,6 +54,7 @@
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
      </nav>
+    </div>
     </header>
     <main class="container">
        <ul class="breadcrumbs">
@@ -63,7 +69,7 @@
       </section>
       <section class="list">
         <h2 class="visually-hidden">Перечень перфораторов</h2>
-        <ul class="puncher-list">
+        <ul class="goods-list">
          <li class="list-item">
             <h3>
               <a href="puncher-item.html">
@@ -81,8 +87,10 @@
             <p class="new-list-item-price">
               15500 
             </p>
+            <div>
             <a class="button-buy" href="#">Купить</a>
             <a class="button-marker" href="#">В закладки</a>
+            </div>
           </li>
           <li class="list-item">
             <h3>
@@ -237,52 +245,54 @@
           </li>
           </ul>
        </section>
-      
-    </main>
-    
-    <footer class="main-footer">
-      <section class="main-footer-links">
-        <a class="main-header-logo">
-          <img src="img/index-logo.svg" width="368" height="153" alt="Логотип Интернет-магазина Техномаркет"></a>
-        <p class="footer-contacts">
-        г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-        +7(812)555-05-55 
-        </p>
-        <ul class="footer-navigation">
-          <li><a href="company.html">Компания</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="delivery.html">Доставка</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <ul class="footer-navigation-yellow">
-          <li><a href="materials.html">Материалы</a></li>
-          <li><a href="equipment.html">Техника</a></li>
-          <li><a href="tool.html">Инструмент</a></li>
-          <li><a href="offers.html">Спецпредложения</a></li>
-        </ul>
-      </section>
-      <section class="main-footer-info">
-       <p class="copyright">
-        ©2010-2019 Компания "Техномаркет"<br>
-        Все права защищены
-      </p>
-      <div class="footer-social">
-         <ul>
-          <li><a class="social-button" href="#">Вконтакте</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Инстаграм</a></li>
+      </main>
+      <footer class="main-footer">
+        <section class="links">
+          <div class="wrapper">
+          <a class="main-header-logo">
+            <img src="img/index-logo.svg" width="368" height="153" alt="Логотип Интернет-магазина Техномаркет"></a>
+          <p class="footer-contacts">
+          г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          +7(812)555-05-55 
+          </p>
+          <ul class="footer-navigation">
+            <li><a href="company.html">Компания</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
           </ul>
-      </div>
-       <p class="footer-develope">
-        Обратная связь:<br> 
-        <a class="message-link" href="https://mail@htmlacademy.ru"> mail@htmlacademy.ru</a>
-      </p>
-       <p class="footer-developer">
-        Разработано-<br> 
-        <a class="developer-link" href="https://htmlacademy.ru/intensive/htmlcss"> htmlacademy.ru</a>
-      </p>
-      </section>
-   </footer>  
- </body>
-</html>
+          <ul class="footer-navigation-yellow">
+            <li><a href="materials.html">Материалы</a></li>
+            <li><a href="equipment.html">Техника</a></li>
+            <li><a href="tool.html">Инструмент</a></li>
+            <li><a href="offers.html">Спецпредложения</a></li>
+          </ul>
+        </div>
+        </section>
+        <section class="info">
+        <div class="wrapper">
+         <p class="copyright">
+          ©2010-2019 Компания "Техномаркет"<br>
+          Все права защищены
+        </p>
+        <div class="footer-social">
+           <ul>
+            <li><a class="social-button" href="#">Вконтакте</a></li>
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Инстаграм</a></li>
+            </ul>
+        </div>
+         <p class="footer-develope">
+          Обратная связь:<br> 
+          <a class="message-link" href="https://mail@htmlacademy.ru"> mail@htmlacademy.ru</a>
+        </p>
+         <p class="footer-developer">
+          Разработано-<br> 
+          <a class="developer-link" href="https://htmlacademy.ru/intensive/htmlcss"> htmlacademy.ru</a>
+        </p>
+        </div>
+        </section>
+     </footer>  
+   </body>
+  </html>
