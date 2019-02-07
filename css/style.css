@@ -1,0 +1,54 @@
+body{ height:3150px}
+.main-header-logo{ width:220px;  height:40px;
+background-color:#ee3643; 
+}
+.container {width: 940px;
+  margin: 0 auto;}
+.main-header{background-color:#f4f7f9;
+}
+.main-panel{list-style: none;
+  padding-left: 0px}
+.main-info{list-style: none;}
+.user-action{list-style: none;}
+.user-navigation{list-style: none;} 
+.main-navigation{
+width: 940px;
+margin-bottom: 70px;}
+.main-navigation {
+  width: 940px;
+  margin: 0 auto;
+  }
+.site-navigation{
+  list-style: none;
+background-color:#293449;}
+.main-panel-block{background-color:#293449;}
+.login-link {background-color: white;
+width: 120px;
+height: 45px}
+.registration{background-color: white;}
+.more{width:220px;  height:40px;
+  background-color: #ee3643;
+  text-transform: uppercase;
+}
+.feedback{width:300px;  height:40px;
+  background-color: #ee3643;
+text-transform: uppercase;}
+.main-footer{background-color:#32425c;
+}
+.links
+.footer-logo{ width:220px;  height:65px;
+  background-color: #ee3643;}
+.footer-navigation{list-style: none;
+padding-left: 0px}
+.footer-navigation-yellow{list-style: none;
+padding-left: 0px}
+.info{background-color:#293449;}
+.footer-social-list{list-style: none;
+}
+.goods-list{list-style: none;
+}
+
+
+
+
+
