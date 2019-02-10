@@ -74,10 +74,48 @@
         <h2>Контакты</h2>
         <p>Вы можете, забрать товар сами,<br>
         заехав в наш офис</p>
-        <img width="300" height="160" src="img/cart.png">
-        <a class="button" href="https://mail@htmlacademy.ru"> <p class="feedback">Заблудились? Напишите нам!</p></a>
+        <img width="300" height="160" src="img/map.jpg">
+        <a class="button" href="#"> <p class="feedback">Заблудились? Напишите нам!</p></a>
       </section>
     </section>
+    <section class="modal modal-map">
+      <h2 class="visually-hidden">
+        Как до нас добраться
+      </h2>
+      <p>
+        <img src="img/cart.png" width="940" height="500" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+      </p>
+      <button class="modal-close" type="button">
+        Закрыть
+      </button>
+    </section>
+    <section>
+        <h2 class="visually-hidden">
+            Напишите письмо
+          </h2>
+    <form class="message" action="#" method="post">
+      <p>
+        <label class="visually-hidden" for="user-name">Ваше имя:</label>
+        <input class="user-name-input" id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+      </p>
+      <p>
+        <label class="visually-hidden" for="user-mail">Ваш e-mail:</label>
+        <input class="login-icon-password" id="user-mail" type="text" name="text" placeholder="email@example.com">
+      </p>
+      <p>
+        <label class="visually-hidden" for="message-content">Тескт письма:</label>
+        <input class="login-icon-password" id="message-content" type="text" name="text" placeholder="В свободной форме">
+      </p>
+      <div class="message-sent">
+      <button class="button" type="submit">
+        Отправить
+      </button>
+     </div>
+      <button class="modal-close" type="button">
+        Закрыть
+      </button>
+    </form>
+  </section>
     </main>
     <footer class="main-footer">
       <section class="links">
