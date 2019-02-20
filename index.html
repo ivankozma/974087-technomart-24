@@ -10,21 +10,23 @@
   <body>
     <header class="main-header">
       <div class="main-panel-block">
-        <div class="container">
-        <ul class="main-panel">
-            <a href="index.html"><li class="main-header-logo">
-                <img src="img/logo-technomart.svg" width="110" height="20" alt="Логотип"></li></a>
-          <li class="main-search">
-            <!-- Здесь будет форма Поиск --></li>
+      <div class="main-panel-container">
+        <div class="logo-part">
+            <div class="main-header-logo"><a href="index.html">
+                <img src="img/logo-technomart.svg" width="110" height="20" alt="Логотип"></a></div>
+          <div class="main-search"><p>Поиск</p></div>
+        </div>  
+        
+        <ul class="main-panel" >
           <li class="main-markers"> Закладки </li>
           <li class="main-basket"> Корзина </li>
-          <a href="order.html"><li class="main-order"> Оформить заказ</li></a>
+          <li class="main-order"><a href="order.html"> Оформить заказ</a></li>
         </ul>
         </div>
       </div>
       <div class="container" style="border-bottom: 1px solid transparent;">
       <div class="main-info-block">
-      <ul class="main-info">
+       <ul class="main-info">
         <li class="main-description">
           <p>
             Интернет-магазин<br>
@@ -34,17 +36,19 @@
         </li>
         <li class="contacts">
           <p class="phone">
-            <a class="link-phone" href="tel:+7(812)555-05-55" >+7(812)555-05-55</a>
+            <a class="link-phone" href="tel:+7 (812) 555-05-55" >+7(812)555-05-55</a>
           </p>
           <p class="adress">
            г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8
           </p>
         </li>
-      </ul>
-      <ul class="user-action">
-        <li><div class="login-icon"><a class="login-link" href="login.html">Войти</a></div></li>
-        <li><div class="registration-icon"><a class="registration-link" href="registration.html">Регистрация</a></div></li>
-      </ul>
+        <li>
+         <div class="user-action">
+          <div class="login-icon"><a class="login-link" href="login.html">Войти</a></div>
+          <div class="registration-icon"><a class="registration-link" href="registration.html">Регистрация</a></div>
+         </div>  
+        </li>
+       </ul>
       </div>
       <nav class="main-navigation">
         <ul class="site-navigation">
@@ -60,7 +64,7 @@
     </div>
    </header>
     <main class="">
-     <section class="container">
+     <section class="container-about">
       <section class="aboutcompany">
         <h2 class="headline">Компания "Техномарт"</h2>
         <p class="description">Настоящий мужской шоппинг начинается здесь!Огромный выбор товаров для ремонта и строительства не оставит равнодушным любителей сэкономить на гассторбайтерах</p>
@@ -71,13 +75,14 @@
           <li>Автотрейдинг</li>
           <li>ЖелДорЭкспедиция</li>
         </ul>
-        <a class="button" href="company.html"><p class="more">Подробнее о компании</p></a>
+        <div class="more"><a class="button" href="company.html">Подробнее о компании</a></div>
+      </section>
       <section class="office-adress">
         <h2 class="headline">Контакты</h2>
         <p class="description">Вы можете, забрать товар сами,<br>
         заехав в наш офис</p>
         <img width="300" height="160" src="img/map.jpg">
-        <a class="button" href="#"> <p class="feedback">Заблудились? Напишите нам!</p></a>
+        <p class="feedback"><a class="button" href="#"> Заблудились? Напишите нам!</a></p>
       </section>
     </section>
     <section class="modal-map">
@@ -123,21 +128,22 @@
       <section class="links">
         <div class="container">
          <div class="links-top">
-          <ul class="footer-navigation">
-            <a href="index.html"><li class="footer-logo">
-                <img src="img/logo-technomart.svg" width="140" height="25" alt="Логотип"></li></a>
+            <div class="footer-logo"><a href="index.html">
+                <img src="img/logo-technomart.svg" width="140" height="25" alt="Логотип"></a></div>
+          
+           <ul class="footer-navigation">
            <li><a href="company.html">Компания</a></li>
            <li><a href="news.html">Новости</a></li>
            <li><a href="catalog.html">Каталог</a></li>
            <li><a href="delivery.html">Доставка</a></li>
            <li><a href="contacts.html">Контакты</a></li>
-          </ul>
-        </div>
+           </ul>
+         </div>
         <div class="links-bottom">
-         <p class="footer-contacts">
+         <div class="footer-contacts">
             г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
             +7(812)555-05-55 
-         </p>
+         </div>
          <ul class="footer-navigation-yellow">
           <li><a class="yellow-material" href="materials.html">Материалы</a></li>
           <li><a class="yellow-technic"href="equipment.html">Техника</a></li>
@@ -148,7 +154,7 @@
        </div>
       </section>
       <div class="info">
-       <div class="container">
+       <div class="container-info">
         <p class="copyright">
         ©2010-2019 Компания "Техномаркет"<br>
         Все права защищены
@@ -160,6 +166,7 @@
           <a  href="https://vk.ru"> <li class="social-button"> Инстаграм</li></a>
           </ul>
         </div>
+        <div class="footer-fedback">
         <p class="footer-developer">
         Обратная связь:<br> 
         <a class="message-link" href="https://mail@htmlacademy.ru"> mail@htmlacademy.ru</a>
@@ -168,6 +175,7 @@
         Разработано-<br> 
         <a class="developer-link" href="https://htmlacademy.ru/intensive/htmlcss"> htmlacademy.ru</a>
         </p>
+        </div>
       </div>
     </div>
    </footer>  
